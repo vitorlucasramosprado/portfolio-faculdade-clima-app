@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App.css */
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh; /* Isso garante que o conteúdo esteja centralizado verticalmente na página */
+  margin: 0;
+  background-color: #f0f0f0; /* Cor de fundo da página */
+}
+
+.app {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo do componente */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  width: 300px; /* Largura do componente */
+}
+
+/* Adicione estilos para outros elementos conforme necessário */
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #007acc;
   color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 05px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.weather {
+  /* Estilos para as informações climáticas */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Estilos para outros elementos conforme necessário */
